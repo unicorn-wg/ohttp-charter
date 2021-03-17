@@ -34,6 +34,6 @@ or rely on configuration.
 
 The OHTTP working group will work closely with other groups that develop the
 tools that OHTTP depends on (HTTPbis for HTTP, CFRG for HPKE) or that might use
-Oblivious HTTP (ADD for DNS over HTTPS).
+Oblivious HTTP (ADD or DPRIVE for DNS over HTTPS).
 
 The working group will use draft-thomson-http-oblivious as input.
