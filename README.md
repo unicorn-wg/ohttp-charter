@@ -28,7 +28,7 @@ ensure that the protocol is secure.
 
 The working group will define a format for any encryption keys that are needed.
 The working group will not describe how encryption keys are obtained.  The
-working group will not define any methods for discoverying proxy or server
+working group will not define any methods for discovering proxy or server
 endpoints; specific uses of the protocol will need to describe discovery methods
 or rely on configuration.
 
