@@ -24,7 +24,9 @@ any key configuration that might be needed to use the protocol.
 
 The OHTTP working group will include an applicability statement that documents
 the limitations of this design and any usage constraints that are necessary to
-ensure that the protocol is secure.
+ensure that the protocol is secure.  The working group will consider the
+operational impact as part of the protocol design and document operational
+considerations.
 
 The working group will define a format for any encryption keys that are needed.
 The working group will not describe how encryption keys are obtained.  The
