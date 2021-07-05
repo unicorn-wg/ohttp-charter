@@ -26,11 +26,11 @@ The OHTTP working group will include an applicability statement that documents
 the limitations of this design and any usage constraints that are necessary to
 ensure that the protocol is secure.
 
-The working group will define a format for any encryption keys that are needed.
-The working group will not describe how encryption keys are obtained.  The
-working group will not define any methods for discovering proxy or server
-endpoints; specific uses of the protocol will need to describe discovery methods
-or rely on configuration.
+The working group will prioritize work on the core protocol elements as
+identified.  Specific uses of this core protocol might need to describe
+discovery methods or rely on configuration.  The working group may discuss and
+document different deployment models.  The working group may publish protocol
+mechanisms that support selected deployment models.
 
 The OHTTP working group will work closely with other groups that develop the
 tools that OHTTP depends on (HTTPbis for HTTP, CFRG for HPKE) or that might use
