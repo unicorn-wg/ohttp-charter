@@ -27,10 +27,9 @@ the limitations of this design and any usage constraints that are necessary to
 ensure that the protocol is secure.
 
 The working group will prioritize work on the core protocol elements as
-identified.  Specific uses of this core protocol might need to describe
-discovery methods or rely on configuration.  The working group may discuss and
-document different deployment models.  The working group may publish protocol
-mechanisms that support selected deployment models.
+identified.  In addition, the working group may work on other use cases and
+deployment models, including those that involve discovery of OHTTP proxies or
+servers.
 
 The OHTTP working group will work closely with other groups that develop the
 tools that OHTTP depends on (HTTPbis for HTTP, CFRG for HPKE) or that might use
