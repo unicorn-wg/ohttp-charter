@@ -28,11 +28,10 @@ ensure that the protocol is secure.  The working group will consider the
 operational impact as part of the protocol design and document operational
 considerations.
 
-The working group will define a format for any encryption keys that are needed.
-The working group will not describe how encryption keys are obtained.  The
-working group will not define any methods for discovering proxy or server
-endpoints; specific uses of the protocol will need to describe discovery methods
-or rely on configuration.
+The working group will prioritize work on the core protocol elements as
+identified.  In addition, the working group may work on other use cases and
+deployment models, including those that involve discovery of OHTTP proxies or
+servers.
 
 The OHTTP working group will work closely with other groups that develop the
 tools that OHTTP depends on (HTTPbis for HTTP, CFRG for HPKE) or that might use
