@@ -34,7 +34,7 @@ deployment models, including those that involve discovery of OHTTP proxies or
 servers.
 
 The OHTTP working group will work closely with other groups that develop the
-tools that OHTTP depends on (HTTPbis for HTTP, CFRG for HPKE) or that might use
-Oblivious HTTP (DPRIVE for DNS over HTTPS).
+tools that Oblivious HTTP depends on (HTTPbis for HTTP, CFRG for HPKE) or that
+might use Oblivious HTTP (DPRIVE for DNS over HTTPS).
 
 The working group will use draft-thomson-http-oblivious as input.
