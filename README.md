@@ -9,12 +9,16 @@ through these interactions, especially source addresses.  Even without client
 identity, a server might be able to build a profile of client activity by
 correlating requests from the same client over time.
 
-In a setting where the information included in requests does not need to be
-correlated, the Oblivious HTTP protocol allows a server to accept requests via a
-proxy.  The proxy ensures that the server cannot see source addressing
-information for clients, which prevents servers linking requests to the same
-client.  Encryption ensures that the proxy is unable to read requests or
-responses.
+In a setting where the information included in requests does not need
+to be correlated, the Oblivious HTTP protocol allows a server to
+accept requests via a proxy.  This design provides the property that
+neither the proxy nor the server is alone able to (1) map a given
+request's contents to a given client identity or (2) link specific
+requests to the same client. However, if they collude they are able to
+do so. The proxy ensures that the server cannot see source addressing
+information for clients, which prevents servers linking requests to
+the same client.  Encryption ensures that the proxy is unable to read
+requests or responses.
 
 The OHTTP working group will define the Oblivious HTTP protocol, a method of
 encapsulating HTTP requests and responses that provides protected, low-latency
