@@ -18,7 +18,10 @@ Example applications and use cases fit for the Oblivious HTTP protocol include D
 data or telemetry submission, and special-purpose API calls such as Safe Browsing.
 In such application deployments, the relationship between client, server, and
 cooperating proxy is typically configured out-of-band.  General purpose HTTP
-applications such as web browsing are not in scope for the Oblivious HTTP protocol.
+applications such as web browsing are not in scope for the Oblivious HTTP protocol,
+which requires explicit new server support. Transport-level proxies such as
+HTTP CONNECT or MASQUE are a more appropriate mechanism for those use
+cases, as they allow connecting to unmodified servers.
 
 The OHTTP working group will define the Oblivious HTTP protocol, a method of
 encapsulating HTTP requests and responses that provides protected, low-latency
