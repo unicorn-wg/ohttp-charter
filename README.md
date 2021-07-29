@@ -15,7 +15,7 @@ client using such information.  Encryption ensures that the proxy is unable to r
 requests or responses.
 
 Example applications and use cases fit for the Oblivious HTTP protocol include DNS,
-data or telemetry submission, and special-purpose API calls such as Safe Browsing.
+data or telemetry submission, and certificate revocation checking.
 In such application deployments, the relationship between client, server, and
 cooperating proxy is typically configured out-of-band.  General purpose HTTP
 applications such as web browsing are not in scope for the Oblivious HTTP protocol,
