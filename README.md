@@ -17,7 +17,9 @@ requests or responses.
 Example applications and use cases fit for the Oblivious HTTP protocol include DNS,
 data or telemetry submission, and certificate revocation checking.
 In some of these application deployments, the relationship between client, server, and
-cooperating proxy is typically configured out-of-band.  General purpose HTTP
+cooperating proxy is typically configured out-of-band.
+
+General purpose HTTP
 applications such as web browsing are not in scope for the Oblivious HTTP protocol,
 which requires explicit new server support. Transport-level proxies such as
 HTTP CONNECT or MASQUE are a more appropriate mechanism for those use
