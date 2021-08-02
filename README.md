@@ -15,14 +15,14 @@ client using such information.  Encryption ensures that the proxy is unable to r
 requests or responses.
 
 Example applications and use cases fit for the Oblivious HTTP protocol include DNS,
-data or telemetry submission, and certificate revocation checking.
-In some of these application deployments, the relationship between client, server, and
-cooperating proxy is typically configured out-of-band.
+data or telemetry submission, and certificate revocation checking. In some of these
+application deployments, the relationship between client, server, and cooperating
+proxy is typically configured out-of-band.
 
-General purpose HTTP
-applications such as web browsing are not in scope for the Oblivious HTTP protocol,
-which requires explicit new server support. Transport-level proxies such as
-HTTP CONNECT or MASQUE are a more appropriate mechanism for those use
+General purpose HTTP applications such as web browsing are not in scope for the
+Oblivious HTTP protocol. Broad applicability is limited by multiple factors, including
+the need for explicit server support of the protocol. In contrast, transport-level
+proxies such as HTTP CONNECT or MASQUE are a more appropriate mechanism for those use
 cases, as they allow connecting to unmodified servers.
 
 The OHTTP working group will define the Oblivious HTTP protocol, a method of
