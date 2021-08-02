@@ -12,12 +12,15 @@ need to be correlated, the Oblivious HTTP protocol allows a supporting server to
 accept requests via a proxy.  The proxy ensures that the server cannot see
 source addressing information for clients, which prevents servers linking
 requests to the same client using such information.  Encryption ensures that the
-proxy is unable to read requests or responses.
+proxy is unable to read requests or responses.  However, if the proxy and server
+collude, then neither of these privacy properties hold.
 
-Example applications and use cases fit for the Oblivious HTTP protocol include
-DNS, data or telemetry submission, and certificate revocation checking. In some
-of these application deployments, the relationship between client, server, and
-cooperating proxy is typically configured out-of-band.
+Applications and use cases best suited for the Oblivious HTTP protocol are those
+that have discrete queries that might reveal small amounts of information over
+time.  Examples include DNS queries, data or telemetry submission, and
+certificate revocation checking. In some of these application deployments, the
+relationship between client, server, and cooperating proxy is typically
+configured out-of-band.
 
 General purpose HTTP applications such as web browsing are not in scope for the
 Oblivious HTTP protocol. Broad applicability is limited by multiple factors,
