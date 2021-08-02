@@ -8,22 +8,22 @@ Even without client identity, a server might be able to build a profile of
 client activity by correlating requests from the same client over time.
 
 In HTTP-based applications where the information included in requests does not
-need to be correlated, the Oblivious HTTP protocol allows a supporting server to accept
-requests via a proxy.  The proxy ensures that the server cannot see source addressing
-information for clients, which prevents servers linking requests to the same
-client using such information.  Encryption ensures that the proxy is unable to read
-requests or responses.
+need to be correlated, the Oblivious HTTP protocol allows a supporting server to
+accept requests via a proxy.  The proxy ensures that the server cannot see
+source addressing information for clients, which prevents servers linking
+requests to the same client using such information.  Encryption ensures that the
+proxy is unable to read requests or responses.
 
-Example applications and use cases fit for the Oblivious HTTP protocol include DNS,
-data or telemetry submission, and certificate revocation checking. In some of these
-application deployments, the relationship between client, server, and cooperating
-proxy is typically configured out-of-band.
+Example applications and use cases fit for the Oblivious HTTP protocol include
+DNS, data or telemetry submission, and certificate revocation checking. In some
+of these application deployments, the relationship between client, server, and
+cooperating proxy is typically configured out-of-band.
 
 General purpose HTTP applications such as web browsing are not in scope for the
-Oblivious HTTP protocol. Broad applicability is limited by multiple factors, including
-the need for explicit server support of the protocol. In contrast, transport-level
-proxies such as HTTP CONNECT or MASQUE are a more appropriate mechanism for those use
-cases, as they allow connecting to unmodified servers.
+Oblivious HTTP protocol. Broad applicability is limited by multiple factors,
+including the need for explicit server support of the protocol. In contrast,
+transport-level proxies such as HTTP CONNECT or MASQUE are a more appropriate
+mechanism for those use cases, as they allow connecting to unmodified servers.
 
 The OHTTP working group will define the Oblivious HTTP protocol, a method of
 encapsulating HTTP requests and responses that provides protected, low-latency
