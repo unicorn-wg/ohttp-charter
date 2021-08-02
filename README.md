@@ -16,7 +16,7 @@ proxy is unable to read requests or responses.  However, if the proxy and server
 collude, then neither of these privacy properties hold.
 
 Applications and use cases best suited for the Oblivious HTTP protocol are those
-that have discrete queries that might reveal small amounts of information over
+that have discrete, transactional queries that might reveal small amounts of information over
 time.  Examples include DNS queries, data or telemetry submission, and
 certificate revocation checking. In some of these application deployments, the
 relationship between client, server, and cooperating proxy is typically
