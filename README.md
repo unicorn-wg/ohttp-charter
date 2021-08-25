@@ -19,8 +19,8 @@ Applications and use cases best suited for the Oblivious HTTP protocol are those
 that have discrete, transactional queries that might reveal small amounts of
 information over time.  Examples include DNS queries, telemetry submission, and
 certificate revocation checking. In some of these application deployments, the
-relationship between client, server, and cooperating proxy is typically
-configured out-of-band.
+relationship between client, server, and cooperating proxy might be configured
+out-of-band.
 
 General purpose HTTP applications such as web browsing are not in scope for the
 Oblivious HTTP protocol. Broad applicability is limited by multiple factors,
@@ -30,9 +30,11 @@ mechanism for those use cases, as they allow connecting to unmodified servers.
 
 The OHTTP working group will define the Oblivious HTTP protocol, a method of
 encapsulating HTTP requests and responses that provides protected, low-latency
-exchanges.  The working group will define any encryption scheme necessary and
-supporting data formats for carrying encapsulated requests and responses, plus
-any key configuration that might be needed to use the protocol.
+exchanges.  The working group will define the use of existing cryptographic
+primitives to define a protocol that meets these goals.  The working group will
+define any data formats necessary to carry encapsulated requests and responses,
+plus formats for supplementary material, such as server keying material, that
+might be needed to use the protocol.
 
 The OHTTP working group will include an applicability statement that documents
 the limitations of this design and any usage constraints that are necessary to
