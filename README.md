@@ -30,7 +30,7 @@ mechanism for those use cases, as they allow connecting to unmodified servers.
 
 The OHTTP working group will define the Oblivious HTTP protocol, a method of
 encapsulating HTTP requests and responses that provides protected, low-latency
-exchanges.  The working group will define the use of existing cryptographic
+exchanges.  The working group will describe the use of existing cryptographic
 primitives to define a protocol that meets these goals.  The working group will
 define any data formats necessary to carry encapsulated requests and responses,
 plus formats for supplementary material, such as server keying material, that
