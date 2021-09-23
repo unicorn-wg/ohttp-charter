@@ -17,10 +17,10 @@ collude, then neither of these privacy properties hold.
 
 Applications and use cases best suited for the Oblivious HTTP protocol are those
 that have discrete, transactional queries that might reveal small amounts of
-information over time.  Examples include DNS queries, telemetry submission, and
-certificate revocation checking. In some of these application deployments, the
-relationship between client, server, and cooperating proxy might be configured
-out-of-band.
+information that accumulate over time.  Examples include DNS queries, telemetry
+submission, and certificate revocation checking. In some of these application
+deployments, the relationship between client, server, and cooperating proxy
+might be configured out-of-band.
 
 General purpose HTTP applications such as web browsing are not in scope for the
 Oblivious HTTP protocol. Broad applicability is limited by multiple factors,
